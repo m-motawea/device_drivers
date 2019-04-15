@@ -5,17 +5,42 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 LIST_HEAD	/home/maged/device_drivers/ch7/linked_list.c	/^static LIST_HEAD(my_list);$/;"	p	file:
+LIST_HEAD	/home/maged/device_drivers/ch7/linked_list_2.c	/^static LIST_HEAD(my_list);$/;"	p	file:
 clist	/home/maged/device_drivers/ch7/linked_list.c	/^  struct list_head clist;$/;"	m	struct:my_entry	typeref:struct:my_entry::list_head	file:	access:public
+clist	/home/maged/device_drivers/ch7/linked_list_2.c	/^  struct list_head clist;$/;"	m	struct:my_entry	typeref:struct:my_entry::list_head	file:	access:public
+count	/home/maged/device_drivers/ch7/linked_list_2.c	/^static int count = 1;$/;"	v	file:
+entries	/home/maged/device_drivers/ch7/linked_list_2.c	/^struct my_entry *entries[20];$/;"	v	typeref:struct:my_entry
+first	/home/maged/device_drivers/ch7/linked_list_2.c	/^dev_t first;$/;"	v
+fops	/home/maged/device_drivers/ch7/linked_list_2.c	/^struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+maj_num	/home/maged/device_drivers/ch7/linked_list_2.c	/^int maj_num;$/;"	v
+min_num	/home/maged/device_drivers/ch7/linked_list_2.c	/^int min_num;$/;"	v
+my_class	/home/maged/device_drivers/ch7/linked_list_2.c	/^static struct class *my_class;$/;"	v	typeref:struct:class	file:
+my_dev	/home/maged/device_drivers/ch7/linked_list_2.c	/^struct cdev *my_dev;$/;"	v	typeref:struct:cdev
 my_entry	/home/maged/device_drivers/ch7/linked_list.c	/^struct my_entry {$/;"	s	file:
+my_entry	/home/maged/device_drivers/ch7/linked_list_2.c	/^struct my_entry {$/;"	s	file:
 my_entry::clist	/home/maged/device_drivers/ch7/linked_list.c	/^  struct list_head clist;$/;"	m	struct:my_entry	typeref:struct:my_entry::list_head	file:	access:public
+my_entry::clist	/home/maged/device_drivers/ch7/linked_list_2.c	/^  struct list_head clist;$/;"	m	struct:my_entry	typeref:struct:my_entry::list_head	file:	access:public
 my_entry::name	/home/maged/device_drivers/ch7/linked_list.c	/^  char *name;$/;"	m	struct:my_entry	file:	access:public
+my_entry::name	/home/maged/device_drivers/ch7/linked_list_2.c	/^  char *name;$/;"	m	struct:my_entry	file:	access:public
 my_entry::num	/home/maged/device_drivers/ch7/linked_list.c	/^  int num;$/;"	m	struct:my_entry	file:	access:public
+my_entry::num	/home/maged/device_drivers/ch7/linked_list_2.c	/^  int num;$/;"	m	struct:my_entry	file:	access:public
 my_exit	/home/maged/device_drivers/ch7/linked_list.c	/^module_exit(my_exit);$/;"	v
 my_exit	/home/maged/device_drivers/ch7/linked_list.c	/^static void __exit my_exit(void)$/;"	f	file:	signature:(void)
+my_exit	/home/maged/device_drivers/ch7/linked_list_2.c	/^module_exit(my_exit);$/;"	v
+my_exit	/home/maged/device_drivers/ch7/linked_list_2.c	/^static void __exit my_exit(void)$/;"	f	file:	signature:(void)
 my_init	/home/maged/device_drivers/ch7/linked_list.c	/^module_init(my_init);$/;"	v
 my_init	/home/maged/device_drivers/ch7/linked_list.c	/^static int __init my_init(void)$/;"	f	file:	signature:(void)
+my_init	/home/maged/device_drivers/ch7/linked_list_2.c	/^module_init(my_init);$/;"	v
+my_init	/home/maged/device_drivers/ch7/linked_list_2.c	/^static int __init my_init(void)$/;"	f	file:	signature:(void)
 my_list_clear	/home/maged/device_drivers/ch7/linked_list.c	/^static void my_list_clear(void)$/;"	f	file:	signature:(void)
+my_list_clear	/home/maged/device_drivers/ch7/linked_list_2.c	/^static void my_list_clear(void)$/;"	f	file:	signature:(void)
 my_list_init	/home/maged/device_drivers/ch7/linked_list.c	/^static int my_list_init (void)$/;"	f	file:	signature:(void)
+my_read	/home/maged/device_drivers/ch7/linked_list_2.c	/^static ssize_t my_read(struct file *file, char __user *buff, size_t size, loff_t *ppos)$/;"	f	file:	signature:(struct file *file, char __user *buff, size_t size, loff_t *ppos)
+my_write	/home/maged/device_drivers/ch7/linked_list_2.c	/^static ssize_t my_write(struct file *filp, const char __user *buff, size_t size, loff_t *offset)$/;"	f	file:	signature:(struct file *filp, const char __user *buff, size_t size, loff_t *offset)
 name	/home/maged/device_drivers/ch7/linked_list.c	/^  char *name;$/;"	m	struct:my_entry	file:	access:public
+name	/home/maged/device_drivers/ch7/linked_list_2.c	/^  char *name;$/;"	m	struct:my_entry	file:	access:public
+node_count	/home/maged/device_drivers/ch7/linked_list_2.c	/^static int node_count = 0;$/;"	v	file:
 num	/home/maged/device_drivers/ch7/linked_list.c	/^  int num;$/;"	m	struct:my_entry	file:	access:public
+num	/home/maged/device_drivers/ch7/linked_list_2.c	/^  int num;$/;"	m	struct:my_entry	file:	access:public
 walk_list	/home/maged/device_drivers/ch7/linked_list.c	/^static int walk_list(void)$/;"	f	file:	signature:(void)
+walk_list	/home/maged/device_drivers/ch7/linked_list_2.c	/^static int walk_list(void)$/;"	f	file:	signature:(void)

@@ -1,7 +1,7 @@
 ### Automatic Makefile generation by 'genmake' script        ####
 ### Copyright, Jerry Cooperstein, coop@linuxfoundation.org 2/2003 - 1/2012 ####
 ### License: GPLv2 ###
-obj-m += linked_list.o
+obj-m += linked_list_2.o
 
 export KROOT=/lib/modules/5.0.5-200.fc29.x86_64/build
 
