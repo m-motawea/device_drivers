@@ -1,0 +1,10 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+my_exit	/home/maged/device_drivers/ch1/hello.c	/^module_exit(my_exit);$/;"	v
+my_exit	/home/maged/device_drivers/ch1/hello.c	/^static void __exit my_exit(void)$/;"	f	file:	signature:(void)
+my_init	/home/maged/device_drivers/ch1/hello.c	/^module_init(my_init);$/;"	v
+my_init	/home/maged/device_drivers/ch1/hello.c	/^static int __init my_init(void)$/;"	f	file:	signature:(void)

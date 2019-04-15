@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+lab_exit	/home/maged/device_drivers/ch3/lab1.c	/^module_exit(lab_exit);$/;"	v
+lab_exit	/home/maged/device_drivers/ch3/lab1.c	/^static void __exit lab_exit(void)$/;"	f	file:	signature:(void)
+lab_exit	/home/maged/device_drivers/ch3/lab2.c	/^module_exit(lab_exit);$/;"	v
+lab_exit	/home/maged/device_drivers/ch3/lab2.c	/^static void __exit lab_exit(void)$/;"	f	file:	signature:(void)
+lab_init	/home/maged/device_drivers/ch3/lab1.c	/^module_init(lab_init);$/;"	v
+lab_init	/home/maged/device_drivers/ch3/lab1.c	/^static int __init lab_init(void)$/;"	f	file:	signature:(void)
+lab_init	/home/maged/device_drivers/ch3/lab2.c	/^static int __init lab_init(void)$/;"	f	file:	signature:(void)
+param	/home/maged/device_drivers/ch3/lab1.c	/^int param = 0;$/;"	v
+param	/home/maged/device_drivers/ch3/lab2.c	/^int param = 0;$/;"	v

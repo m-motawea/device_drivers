@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+count	/home/maged/device_drivers/ch4/char_1.c	/^int count = 200;$/;"	v
+count	/home/maged/device_drivers/ch4/char_2.c	/^int count = 1;$/;"	v
+dev_exit	/home/maged/device_drivers/ch4/char_1.c	/^module_exit(dev_exit);$/;"	v
+dev_exit	/home/maged/device_drivers/ch4/char_1.c	/^static void __exit dev_exit(void)$/;"	f	file:	signature:(void)
+dev_exit	/home/maged/device_drivers/ch4/char_2.c	/^module_exit(dev_exit);$/;"	v
+dev_exit	/home/maged/device_drivers/ch4/char_2.c	/^static void __exit dev_exit(void)$/;"	f	file:	signature:(void)
+dev_init	/home/maged/device_drivers/ch4/char_1.c	/^module_init(dev_init);$/;"	v
+dev_init	/home/maged/device_drivers/ch4/char_1.c	/^static int __init dev_init(void)$/;"	f	file:	signature:(void)
+dev_init	/home/maged/device_drivers/ch4/char_2.c	/^module_init(dev_init);$/;"	v
+dev_init	/home/maged/device_drivers/ch4/char_2.c	/^static int __init dev_init(void)$/;"	f	file:	signature:(void)
+fops	/home/maged/device_drivers/ch4/char_1.c	/^struct file_operations fops = {};$/;"	v	typeref:struct:file_operations
+fops	/home/maged/device_drivers/ch4/char_2.c	/^struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+kbuf	/home/maged/device_drivers/ch4/char_2.c	/^static char *kbuf;$/;"	v	file:
+kbuf	/home/maged/device_drivers/ch4/fops.h	/^char *kbuf;$/;"	v
+maj_num	/home/maged/device_drivers/ch4/char_1.c	/^int maj_num;$/;"	v
+maj_num	/home/maged/device_drivers/ch4/char_2.c	/^int maj_num;$/;"	v
+min_num	/home/maged/device_drivers/ch4/char_1.c	/^int min_num;$/;"	v
+min_num	/home/maged/device_drivers/ch4/char_2.c	/^int min_num;$/;"	v
+my_class	/home/maged/device_drivers/ch4/char_2.c	/^static struct class *my_class;$/;"	v	typeref:struct:class	file:
+my_dev	/home/maged/device_drivers/ch4/char_1.c	/^struct cdev *my_dev;$/;"	v	typeref:struct:cdev
+my_dev	/home/maged/device_drivers/ch4/char_2.c	/^struct cdev *my_dev;$/;"	v	typeref:struct:cdev
+my_drv	/home/maged/device_drivers/ch4/char_1.c	/^dev_t my_drv;$/;"	v
+my_drv	/home/maged/device_drivers/ch4/char_2.c	/^dev_t my_drv;$/;"	v
+my_read	/home/maged/device_drivers/ch4/char_2.c	/^static ssize_t my_read(struct file *file, char __user *buff, size_t lbuf, loff_t *ppos)$/;"	f	file:	signature:(struct file *file, char __user *buff, size_t lbuf, loff_t *ppos)
+my_read	/home/maged/device_drivers/ch4/fops.c	/^static ssize_t my_read(struct file *file, char __user *buff, size_t lbuf, loff *ppos)$/;"	f	file:	signature:(struct file *file, char __user *buff, size_t lbuf, loff *ppos)
+my_read	/home/maged/device_drivers/ch4/fops.h	/^static ssize_t my_read(struct file *file, char __user *buff, size_t lbuf, loff *ppos);$/;"	p	signature:(struct file *file, char __user *buff, size_t lbuf, loff *ppos)
+my_write	/home/maged/device_drivers/ch4/char_2.c	/^static ssize_t my_write(struct file *filp, const char __user *buff, size_t size, loff_t *offset)$/;"	f	file:	signature:(struct file *filp, const char __user *buff, size_t size, loff_t *offset)
+my_write	/home/maged/device_drivers/ch4/fops.c	/^static ssize_t my_write(struct file *filp, const char __user *buff, size_t size, loff *offset)$/;"	f	file:	signature:(struct file *filp, const char __user *buff, size_t size, loff *offset)
+my_write	/home/maged/device_drivers/ch4/fops.h	/^static ssize_t my_write(struct file *filp, const char __user *buff, size_t size, loff *offset);$/;"	p	signature:(struct file *filp, const char __user *buff, size_t size, loff *offset)
+s	/home/maged/device_drivers/ch4/char_2.c	/^static size_t s = (20 * PAGE_SIZE);$/;"	v	file:
