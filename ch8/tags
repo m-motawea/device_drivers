@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+SHARED_IRQ	/home/maged/device_drivers/ch8/interrupt_driver.c	12;"	d	file:
+count	/home/maged/device_drivers/ch8/interrupt_driver.c	/^int count = 1;$/;"	v
+dev_exit	/home/maged/device_drivers/ch8/interrupt_driver.c	/^module_exit(dev_exit);$/;"	v
+dev_exit	/home/maged/device_drivers/ch8/interrupt_driver.c	/^static void __exit dev_exit(void)$/;"	f	file:	signature:(void)
+dev_init	/home/maged/device_drivers/ch8/interrupt_driver.c	/^module_init(dev_init);$/;"	v
+dev_init	/home/maged/device_drivers/ch8/interrupt_driver.c	/^static int __init dev_init(void)$/;"	f	file:	signature:(void)
+fops	/home/maged/device_drivers/ch8/interrupt_driver.c	/^struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+irq	/home/maged/device_drivers/ch8/interrupt_driver.c	/^static int irq = SHARED_IRQ, my_dev_id, irq_counter = 0;$/;"	v	file:
+irq_counter	/home/maged/device_drivers/ch8/interrupt_driver.c	/^static int irq = SHARED_IRQ, my_dev_id, irq_counter = 0;$/;"	v	file:
+kbuf	/home/maged/device_drivers/ch8/interrupt_driver.c	/^static char *kbuf;$/;"	v	file:
+maj_num	/home/maged/device_drivers/ch8/interrupt_driver.c	/^int maj_num;$/;"	v
+min_num	/home/maged/device_drivers/ch8/interrupt_driver.c	/^int min_num;$/;"	v
+my_class	/home/maged/device_drivers/ch8/interrupt_driver.c	/^static struct class *my_class;$/;"	v	typeref:struct:class	file:
+my_dev	/home/maged/device_drivers/ch8/interrupt_driver.c	/^struct cdev *my_dev;$/;"	v	typeref:struct:cdev
+my_dev_id	/home/maged/device_drivers/ch8/interrupt_driver.c	/^static int irq = SHARED_IRQ, my_dev_id, irq_counter = 0;$/;"	v	file:
+my_drv	/home/maged/device_drivers/ch8/interrupt_driver.c	/^dev_t my_drv;$/;"	v
+my_handler	/home/maged/device_drivers/ch8/interrupt_driver.c	/^static irqreturn_t my_handler(int irq, void *dev_id) {$/;"	f	file:	signature:(int irq, void *dev_id)
+my_read	/home/maged/device_drivers/ch8/interrupt_driver.c	/^static ssize_t my_read(struct file *file, char __user *buff, size_t lbuf, loff_t *ppos)$/;"	f	file:	signature:(struct file *file, char __user *buff, size_t lbuf, loff_t *ppos)
+s	/home/maged/device_drivers/ch8/interrupt_driver.c	/^static size_t s = (20 * PAGE_SIZE);$/;"	v	file:
